@@ -2,19 +2,45 @@
 
 {% block content %}
 <div class="row row-flex">
-
     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
         <div class="panel-body">
-            <li><a href="{% url 'product-filter' category='Rings' %}">rings</a></li>
-            <li><a href="{% url 'product-filter' category='Earrings' %}">earrings</a></li>
-            <!-- <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ product.image }}')"></div> -->
-            <!-- <img class="img-product" src="/media/{{ product.image }}">-->
-            <!-- <h3>{{ product.name }}</h3>
-            <p class="product-description">{{ product.description }}</p> -->
-
-
+            <a href="{% url 'product-filter' category='Rings' %}">
+                <div><img src="static/media/images/ring-background.jpg" class="product-background"></div>
+                <h3>Rings</h3>
+            </a>
         </div>
     </div>
-
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
+        <div class="panel-body">
+            <a href="{% url 'product-filter' category='Necklaces' %}">
+                <div><img src="static/media/images/necklace-background.jpg" class="product-background"></div>
+                <h3>Necklaces</h3>
+            </a>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
+        <div class="panel-body">
+            <a href="{% url 'product-filter' category='Bracelets' %}">
+                <div><img src="static/media/images/bracelet-background.jpg" class="product-background"></div>
+                <h3>Bracelets</h3>
+            </a>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-2 col-sm-6 col-md-4 col-md-offset-1 display panel panel-default">
+        <div class="panel-body">
+            <a href="{% url 'product-filter' category='Earrings' %}">
+                <div><img src="static/media/images/earrings-background.jpg" class="product-background"></div>
+                <h3>Earrings</h3>
+            </a>
+        </div>
+    </div>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
+        <div class="panel-body">
+            <a href="{% url 'product-filter' category='Collections' %}">
+                <div><img src="static/media/images/collections-background.jpg" class="product-background"></div>
+                <h3>Collections</h3>
+            </a>
+        </div>
+    </div>
 </div>
 {% endblock %}

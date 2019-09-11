@@ -1,0 +1,156 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Great+Vibes|Lobster|Prata|Satisfy&display=swap');
+/* font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Prata', serif; */
+
+/*h styles*/
+
+h1 {
+    text-align: left;
+    margin: 1em;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: #C0C0C0;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: #C0C0C0;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+/*navbar*/
+
+.navbar{
+    background-image: linear-gradient(#7d0570, #e179d6 60%, #d904cc);
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.navbar-default .navbar-brand{
+    color: #C0C0C0;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    color: #C0C0C0;
+}
+
+/* intro container*/
+
+.introduction-container {
+    margin-top: 5em;
+    padding-bottom: 20px;
+    min-height: 25%;
+    background-image: url("../media/images/jewelry-background-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border: 1px solid #C0C0C0;
+}
+
+/*footer*/
+
+footer {
+    /* margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ededed;
+    color: #a9a9a9; */
+    background-image: linear-gradient(#7d0570, #e179d6 60%, #d904cc);
+    border-bottom: #C0C0C0;
+}
+
+.list-inline a{  
+    color: #C0C0C0;
+    text-shadow: 3px 3px 3px #000000;
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+}
+
+.block-content{
+    margin-top:25px;
+    margin-bottom:30px;
+}
+
+form {
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+ .product-background {
+    width: 30%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+} 
+
+.product {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+caption p {
+    word-wrap: break-word;
+}
+
+.row.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.panel-default {
+    border-color: transparent;
+    padding: 0 10px;
+}
+
+.panel-body {
+    height: 100%;
+    border: 2px solid #C0C0C0;
+    border-radius: 5%;
+}
+
+.product-description {
+    min-height: 40px;
+}
