@@ -72,26 +72,18 @@
 
     <footer class='container-fluid'>
         <div class='footer-details row'>
-                <div class='col-sm-4'>
+            <div class='col-sm-6'>
                     <ul class='footer-list'>
-                        <li><a target='_blank' href=''>About Us</a></li>
-                        <li><a target='_blank' href=''>Terms & Conditions</a></li>
-                        <li><a target='_blank' href=''>Privacy Policy</a></li>
+                        <li><a href="{% url 'deliveries' %}">Deliveries & Returns</a></li>
+                        <li><a href="{% url 'track' %}">Track Order</a></li>
+                        <li><a href="{% url 'contact' %}" >Contact Us</a></li>
                     </ul>
             </div>
-            <div class='col-sm-4'>
+            <div class='col-sm-6'>
                     <ul class='footer-list'>
-                        <li><a target='_blank' href=''>Customer Services</a></li>
-                        <li><a target='_blank' href=''>Deliveries & Returns</a></li>
-                        <li><a target='_blank' href=''>Track Order</a></li>
-                        <li><a target='_blank' href=''>Contact Us</a></li>
-                    </ul>
-            </div>
-            <div class='col-sm-4'>
-                    <ul class='footer-list'>
-                        <li><a target='_blank' href=''>Help</a></li>
-                        <li><a target='_blank' href=''>Ring Sizes</a></li>
-                        <li><a target='_blank' href=''>Metal Buying Guide</a></li>
+                        <li><a href="{% url 'faq' %}">Help</a></li>
+                        <li><a href="{% url 'sizes' %}">Ring Sizes</a></li>
+                        <li><a href="{% url 'metal' %}">Metal Buying Guide</a></li>
                     </ul>
             </div>
         </div>

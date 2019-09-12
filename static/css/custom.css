@@ -88,15 +88,33 @@ footer {
     padding:2px;
 }
 
+/*block content*/
+
 .block-content{
     /* margin-top:25px;
     margin-bottom:30px; */
-    min-height: calc(100vh - 376px);
+    min-height: calc(100vh - 344px);
 }
 
+/*contact page*/
 form {
-    width: 50%;
-    padding-left: 10px;
+    width: 100%;
+}
+
+.form-control{
+   padding-left: 10px;
+}
+
+.contact-list li{
+    list-style-type: none;
+    padding:2px;
+}
+
+
+.contact-list span{
+    padding:8px;
+    font-size:15px;
+
 }
 
 
